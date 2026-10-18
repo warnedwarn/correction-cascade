@@ -21,3 +21,14 @@ genvm-lint contracts/contract.py
 ```
 
 The direct suite covers partial and complete rounds, deterministic frontier calculation, exhausted and unreadable outcomes, cycle rejection, duplicate IDs and source slots, cancellation authorization, terminal replay, and forged validator output.
+
+## StudioNet record
+
+- Contract: [`0x652b02682f2f980AecA42aa0B3aAfb6F2cAbB5E6`](https://explorer-studio.genlayer.com/address/0x652b02682f2f980AecA42aa0B3aAfb6F2cAbB5E6)
+- Reviewed source: [`7e7ccf4`](https://github.com/warnedwarn/correction-cascade/tree/7e7ccf4401d9df43c40627269a77b9c7d5a63135)
+- Deployment: [`0x91d5...a4bf`](https://explorer-studio.genlayer.com/transactions/0x91d5942ec90b5e606fdbe6702bc6ea9439125259c5b2ae9797ebccea3e47a4bf)
+- Open cascade: [`0xe83c...794f`](https://explorer-studio.genlayer.com/transactions/0xe83c65f8d4fbd20eba7f15cc2e894c412aa935fb83aa97ace0d9a9f1e2a5794f)
+- Check propagation: [`0x01e0...b3c6`](https://explorer-studio.genlayer.com/transactions/0x01e0a6cded28234709f3fd50baed0f71b2b39918a0669d4489292382648bb3c6)
+- Live record: `CASCADE-1792287556`, terminal state `COMPLETE`
+
+The deployment and both workflow transactions reached `FINALIZED / MAJORITY_AGREE / SUCCESS`. The deployed contract bytes match the reviewed source SHA-256. The correction and publication pages are operator-authored fixtures used to demonstrate the mechanism, not independent newsroom records.

@@ -1,0 +1,82 @@
+{
+  "cascadeId": "CASCADE-1792287556",
+  "transactions": {
+    "open": "0xe83c65f8d4fbd20eba7f15cc2e894c412aa935fb83aa97ace0d9a9f1e2a5794f",
+    "check": "0x01e0a6cded28234709f3fd50baed0f71b2b39918a0669d4489292382648bb3c6"
+  },
+  "state": {
+    "checks": 1,
+    "correction_url": "https://raw.githubusercontent.com/warnedwarn/correction-cascade/7e7ccf4401d9df43c40627269a77b9c7d5a63135/evidence/correction-notice.md",
+    "dependency_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "history": [
+      {
+        "check": 1,
+        "digests": [
+          "1381cca4ebfa8d9ddabe720d9f9b233d2894200b414e3ee687119d92dcdf6cb7",
+          "30f2f967c189b568d14de9e74829605aa60f203f390714d932cd8d5cc940afc1",
+          "960bde3b792b0dc27cb6f81fc47f4d6dff2069b263fdd4cde27ea64262e3786a",
+          "7ece5645db3598ae2e0d8db4156e689d3b3630b14322630e99e22017df0d3e29",
+          "6b54952040a17fc2edfc0b278fef17abbb78135aa818e0687d394c7c351f6f58"
+        ],
+        "frontier": [],
+        "result": "COMPLETE",
+        "stale": [],
+        "statuses": [
+          "INCORPORATED",
+          "INCORPORATED",
+          "INCORPORATED",
+          "INCORPORATED"
+        ]
+      }
+    ],
+    "id": "CASCADE-1792287556",
+    "latest_digests": [
+      "1381cca4ebfa8d9ddabe720d9f9b233d2894200b414e3ee687119d92dcdf6cb7",
+      "30f2f967c189b568d14de9e74829605aa60f203f390714d932cd8d5cc940afc1",
+      "960bde3b792b0dc27cb6f81fc47f4d6dff2069b263fdd4cde27ea64262e3786a",
+      "7ece5645db3598ae2e0d8db4156e689d3b3630b14322630e99e22017df0d3e29",
+      "6b54952040a17fc2edfc0b278fef17abbb78135aa818e0687d394c7c351f6f58"
+    ],
+    "latest_frontier": [],
+    "latest_statuses": [
+      "INCORPORATED",
+      "INCORPORATED",
+      "INCORPORATED",
+      "INCORPORATED"
+    ],
+    "max_checks": 3,
+    "node_labels": [
+      "Canonical article",
+      "Syndicated copy",
+      "Weekly digest",
+      "Search excerpt"
+    ],
+    "node_urls": [
+      "https://raw.githubusercontent.com/warnedwarn/correction-cascade/7e7ccf4401d9df43c40627269a77b9c7d5a63135/evidence/publication-origin.md",
+      "https://raw.githubusercontent.com/warnedwarn/correction-cascade/7e7ccf4401d9df43c40627269a77b9c7d5a63135/evidence/publication-syndicated.md",
+      "https://raw.githubusercontent.com/warnedwarn/correction-cascade/7e7ccf4401d9df43c40627269a77b9c7d5a63135/evidence/publication-digest.md",
+      "https://raw.githubusercontent.com/warnedwarn/correction-cascade/7e7ccf4401d9df43c40627269a77b9c7d5a63135/evidence/publication-search.md"
+    ],
+    "owner": "0x013A0745a3b2DbF87f4AB377266fCcb7e6eEC88A",
+    "state": "COMPLETE",
+    "title": "North Archive closure-date correction"
+  },
+  "fixtureDisclosure": "The correction and publication pages are operator-authored technical fixtures used to demonstrate digest binding, semantic incorporation checks, and deterministic graph handling."
+}

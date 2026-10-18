@@ -11,4 +11,4 @@
 | Permissionless progress with bounded exhaustion | `check_propagation` | complete and exhausted tests | PASS |
 | Unreadable evidence cannot become complete | `check_propagation` | inconclusive test | PASS |
 | Cancellation and replay boundaries | `cancel_unchecked`, `check_propagation` | authorization and terminal replay tests | PASS |
-| Live deployment and transaction | pending deployment | StudioNet receipt | UNVERIFIED |
+| Live deployment and transaction | `deployment.json`, `evidence/deployment-verification.json` | finalized deployment plus open and propagation-check receipts | PASS |
